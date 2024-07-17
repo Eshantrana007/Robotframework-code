@@ -4,7 +4,7 @@ Library           RequestsLibrary
 Library           Collections
 
 *** Variables ***
-${URL}           https://www.indiamobilecongress.com/awards  # Enter Website URL
+${URL}           https://www.ecample.com  # Enter Website URL
 ${browser}       Chrome
 
 *** Test Cases ***
