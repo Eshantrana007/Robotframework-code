@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${url}    https://mirchidigital.co.in
+${url}    https://example.co.in
 ${browser}    Chrome
 ${text}    Make IT Human
 ${news_btn}    xpath://a[@href='https://mirchidigital.co.in/news-and-announcement/avaso-partners-with-evertreen-for-global-reforestation'][contains(text(),'Know')]
