@@ -1,3 +1,4 @@
+# Verify  the homepage loads and Funtionality
 *** Settings ***
 Library  SeleniumLibrary
 
