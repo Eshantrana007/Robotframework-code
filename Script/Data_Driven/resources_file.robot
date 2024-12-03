@@ -19,11 +19,11 @@ Open login page
 
 Input username
     [Arguments]    ${username}
-    Input text   id:email     ${username}
+    Input text   xpath://input[@id='email']     ${username}
 
 Input Password
     [Arguments]    ${Password}
-    Input text  id:password   ${Password}
+    Input text  xpath://input[@id='password']   ${Password}
 
 Click login Button
     Click element     xpath://button[normalize-space()='Log in']
