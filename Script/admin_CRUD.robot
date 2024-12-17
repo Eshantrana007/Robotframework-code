@@ -6,11 +6,11 @@ Library       DatabaseLibrary
 ${BASE_URL}    https://mirchidigital.co.in/login
 ${browser}    chrome
 ${FULL_NAME}   Rohit
-${EMAIL}       eshantrana00234@gmail.com
-${PHONE}       7018387500
+${EMAIL}       eshantrana0123@gmail.com
+${PHONE}       1234567890
 ${file}    xpath://input[@id='attachment']
-${UPDATED_NAME}     Eshant Rana
-${UPDATED_PHONE}        8894114036
+${UPDATED_NAME}     Eshant
+${UPDATED_PHONE}        0987654321
 ${delete_btn}    xpath://a[@aria-label='Delete']
 
 *** Test Cases ***
