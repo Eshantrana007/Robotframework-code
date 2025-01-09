@@ -3,7 +3,7 @@ Library         SeleniumLibrary
 
 
 *** Variables ***
-${url}          https://ai.untamed.in/
+${url}          https://ai.example.in/
 ${browser}      chrome
 
 *** Test Cases ***
@@ -23,7 +23,7 @@ TC_002
     Execute Manual Step
     Wait until element is enabled        name:name    5s
     Element should be visible            name:name
-    Input Text                           name:name        Tanvi
+    Input Text                           name:name        eshant
 
     Wait until element is enabled        name:email
     Element should be enabled            name:email
